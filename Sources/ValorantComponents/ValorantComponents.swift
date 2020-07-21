@@ -1,3 +1,3 @@
-struct ValorantComponents {
-    var text = "Hello, World!"
+public struct ValorantComponents {
+    public var text = "Hello, World!"
 }
