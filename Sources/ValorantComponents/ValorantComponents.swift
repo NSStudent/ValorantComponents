@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct ValorantComponents {
+public struct VAComponents {
     public var text = "Hello, World!"
     public init() {}
     

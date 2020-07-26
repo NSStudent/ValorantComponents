@@ -10,8 +10,14 @@ import SwiftUI
 struct Buttons_Previews: PreviewProvider {
     
     static var previews: some View {
-        VAPrimaryButton(action: {}) { Text("Primary") }
-            .previewLayout(.sizeThatFits)
+        
+        Group {
+            VAPrimaryButton(action: {}) { Text("Primary") }
+                .previewLayout(.sizeThatFits)
+            VAPrimaryButton(action: {}) { Text("Primary") }
+                .previewLayout(.sizeThatFits)
+                .colorScheme(.dark)
+        }.background(Color.VA.background)
         VASecondaryButton(action: {}) { Text("Secondary") }
             .previewLayout(.sizeThatFits)
     }
