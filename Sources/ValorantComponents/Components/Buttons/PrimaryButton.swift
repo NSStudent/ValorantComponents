@@ -28,3 +28,12 @@ public struct VAPrimaryButton<Label: View>: View {
         self.label = label
     }
 }
+
+struct PrimaryButton_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        VAPrimaryButton(action: {}) { Text("Hello") }
+    }
+}
+
+

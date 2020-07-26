@@ -27,7 +27,7 @@ let package = Package(
             resources: [
                 .process("Resources/Fonts/Valorant Font.ttf")
             ]
-            ),
+        ),
         .testTarget(
             name: "ValorantComponentsTests",
             dependencies: ["ValorantComponents"]),
